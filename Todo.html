@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Todo List</title>
+
+<link rel="stylesheet" href="Todo.css">
+
+</head>
+<body>
+
+<div id="todo">
+
+    <h1>📝 My Todo List</h1>
+
+    <div id="stats">
+        <span id="totalTasks">📝 Total : 0</span>
+        <span id="completedTasks">✅ Completed : 0</span>
+    </div>
+
+    <input type="text" id="searchTask" placeholder="🔍 Search task..." >
+
+    <div class="selectRow">
+        <select id="category">
+            <option value="Personal">Personal</option>
+            <option value="Study">Study</option>
+            <option value="Work">Work</option>
+            <option value="Shopping">Shopping</option>
+        </select>
+
+        <input type="date" id="dueDate" >
+    </div>
+
+    <div class="mainInput">
+        <input id="taskInput" type="text" placeholder="Enter Task..." >
+
+        <button id="addBtn">Add</button>
+
+    </div>
+    <div id="message"></div>
+    <div id="taskList"></div>
+    <button id="clearCompleted">Clear Completed</button>
+</div>
+
+<script src="Todo.js"></script>
+
+</body>
+</html>
