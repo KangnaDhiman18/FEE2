@@ -1,164 +1,68 @@
 import { useState } from "react";
-
-import Navbar from "./Navbar";
-import ProductCard from "./ProductCard";
-import Cart from "./Cart";
-import products from "./products";
-
 import "./App.css";
 
 function App() {
 
-  const [cart, setCart] = useState([]);
-  const [showCart, setShowCart] = useState(false);
-  const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("All");
+  // Counter 1
+  const [count1, setCount1] = useState(0);
 
-  const addToCart = (product) => {
+  // Counter 2
+  const [count5, setCount5] = useState(0);
 
-    const existingProduct = cart.find(
-      item => item.id === product.id
-    );
-
-    if (existingProduct) {
-
-      setCart(
-        cart.map(item =>
-          item.id === product.id
-            ? {
-                ...item,
-                quantity: item.quantity + 1
-              }
-            : item
-        )
-      );
-
-    } else {
-
-      setCart([
-        ...cart,
-        {
-          ...product,
-          quantity: 1
-        }
-      ]);
-
-    }
-  };
-
-  const filteredProducts = products.filter(product => {
-
-    const matchesSearch = product.name
-      .toLowerCase()
-      .includes(search.toLowerCase());
-
-    const matchesCategory =
-      category === "All" ||
-      product.category === category;
-
-    return matchesSearch && matchesCategory;
-  });
-
-  const cartCount = cart.reduce(
-    (total, item) => total + item.quantity,
-    0
-  );
+  // Counter 3
+  const [count10, setCount10] = useState(0);
 
   return (
-    <div>
+    <div className="container">
 
-      <Navbar
-        cartCount={cartCount}
-        setShowCart={setShowCart}
-      />
+      <h1>Multiple Counters</h1>
 
-      <main>
+      {/* Counter +1 / -1 */}
+      <div className="counter">
+        <h2>Counter 1</h2>
 
-        <section className="hero">
+        <h3>{count1}</h3>
 
-          <div>
+        <button onClick={() => setCount1(count1 + 1)}>
+          +1
+        </button>
 
-            <p className="small-title">
-              WELCOME TO SHOPCART
-            </p>
-
-            <h1>
-              Everything You Need,
-              <br />
-              In One Place.
-            </h1>
-
-            <p>
-              Discover amazing products at affordable prices.
-            </p>
-
-          </div>
-
-        </section>
+        <button onClick={() => setCount1(count1 - 1)}>
+          -1
+        </button>
+      </div>
 
 
-        <section className="products-section">
+      {/* Counter +5 / -5 */}
+      <div className="counter">
+        <h2>Counter 5</h2>
 
-          <div className="section-top">
+        <h3>{count5}</h3>
 
-            <h2>Our Products</h2>
+        <button onClick={() => setCount5(count5 + 5)}>
+          +5
+        </button>
 
-            <div className="filters">
-
-              <input
-                type="text"
-                placeholder="🔍 Search products..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
-
-              <select
-                value={category}
-                onChange={(e) => setCategory(e.target.value)}
-              >
-
-                <option value="All">All Categories</option>
-                <option value="Electronics">Electronics</option>
-                <option value="Fashion">Fashion</option>
-                <option value="Home">Home</option>
-                <option value="Fitness">Fitness</option>
-                <option value="Stationery">Stationery</option>
-
-              </select>
-
-            </div>
-
-          </div>
+        <button onClick={() => setCount5(count5 - 5)}>
+          -5
+        </button>
+      </div>
 
 
-          <div className="product-grid">
+      {/* Counter +10 / -10 */}
+      <div className="counter">
+        <h2>Counter 10</h2>
 
-            {filteredProducts.map(product => (
+        <h3>{count10}</h3>
 
-              <ProductCard
-                key={product.id}
-                product={product}
-                addToCart={addToCart}
-              />
+        <button onClick={() => setCount10(count10 + 10)}>
+          +10
+        </button>
 
-            ))}
-
-          </div>
-
-        </section>
-
-      </main>
-
-
-      {showCart && (
-
-        <Cart
-          cart={cart}
-          setCart={setCart}
-          setShowCart={setShowCart}
-        />
-
-      )}
+        <button onClick={() => setCount10(count10 - 10)}>
+          -10
+        </button>
+      </div>
 
     </div>
   );
