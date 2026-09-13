@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Amul Taaza Milk 1L", "brand": "Amul", "category": "Dairy", "price": 68, "description": "Fresh toned milk for everyday tea, coffee and breakfast.", "rating": 4.8, "image": "🥛"},
+  {"id": 2, "name": "Harvest Whole Wheat Bread", "brand": "Harvest", "category": "Bakery", "price": 48, "description": "Soft whole wheat bread baked fresh every morning.", "rating": 4.6, "image": "🍞"},
+  {"id": 3, "name": "Farm Eggs - 6 pack", "brand": "FarmFresh", "category": "Dairy", "price": 72, "description": "Six naturally sourced brown eggs.", "rating": 4.7, "image": "🥚"},
+  {"id": 4, "name": "Basmati Rice 5kg", "brand": "Royal Grain", "category": "Staples", "price": 499, "description": "Long-grain aromatic basmati rice.", "rating": 4.5, "image": "🍚"},
+  {"id": 5, "name": "Alphonso Mangoes 1kg", "brand": "Orchard", "category": "Fruits", "price": 180, "description": "Seasonal sweet Alphonso mangoes.", "rating": 4.9, "image": "🥭"},
+  {"id": 6, "name": "Sparkle Dishwash Gel", "brand": "Sparkle", "category": "Household", "price": 125, "description": "Concentrated lemon dishwash gel.", "rating": 4.3, "image": "🧴"},
+  {"id": 7, "name": "Fresh Spinach 250g", "brand": "Green Basket", "category": "Vegetables", "price": 32, "description": "Washed, crisp and locally sourced spinach.", "rating": 4.4, "image": "🥬"},
+  {"id": 8, "name": "Cold Brew Coffee 250ml", "brand": "Brew Lab", "category": "Beverages", "price": 150, "description": "Smooth ready-to-drink cold brew.", "rating": 4.6, "image": "☕"},
+  {"id": 9, "name": "Classic Potato Chips", "brand": "Crunch", "category": "Snacks", "price": 40, "description": "Crispy salted potato chips.", "rating": 4.1, "image": "🥔"},
+  {"id": 10, "name": "USB-C Fast Charger", "brand": "Volt", "category": "Electronics", "price": 899, "description": "Compact 30W fast charger with USB-C port.", "rating": 4.5, "image": "🔌"}
+]

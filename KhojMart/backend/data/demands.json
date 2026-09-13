@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "user_id": 2,
+    "store_id": 1,
+    "item_name": "Alphonso Mangoes 1kg",
+    "category": null,
+    "notes": null,
+    "status": "Pending",
+    "created_at": "2026-09-12T10:12:07.695072+00:00"
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "store_id": 1,
+    "item_name": "apple",
+    "category": null,
+    "notes": null,
+    "status": "Pending",
+    "created_at": "2026-09-12T10:12:24.238674+00:00"
+  },
+  {
+    "id": 3,
+    "user_id": 2,
+    "store_id": 1,
+    "item_name": "coffee",
+    "category": "beverage",
+    "notes": "nestle",
+    "status": "Pending",
+    "created_at": "2026-09-13T07:33:12.999911+00:00"
+  }
+]

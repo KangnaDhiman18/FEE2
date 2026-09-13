@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1001,
+    "user_id": 1,
+    "store_id": 1,
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "price": 68
+      },
+      {
+        "product_id": 2,
+        "quantity": 1,
+        "price": 48
+      }
+    ],
+    "total": 116,
+    "created_at": "2026-09-06T10:30:00"
+  },
+  {
+    "id": 2002,
+    "user_id": 2,
+    "store_id": 1,
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "price": 68
+      },
+      {
+        "product_id": 3,
+        "quantity": 1,
+        "price": 72
+      },
+      {
+        "product_id": 8,
+        "quantity": 1,
+        "price": 150
+      }
+    ],
+    "total": 290,
+    "created_at": "2026-09-13T11:46:23.880595"
+  },
+  {
+    "id": 3003,
+    "user_id": 2,
+    "store_id": 1,
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "price": 68
+      },
+      {
+        "product_id": 3,
+        "quantity": 1,
+        "price": 72
+      }
+    ],
+    "total": 140,
+    "created_at": "2026-09-13T11:46:49.235988"
+  },
+  {
+    "id": 4004,
+    "user_id": 2,
+    "store_id": 2,
+    "items": [
+      {
+        "product_id": 10,
+        "quantity": 1,
+        "price": 899
+      }
+    ],
+    "total": 899,
+    "created_at": "2026-09-13T11:54:27.158703"
+  }
+]

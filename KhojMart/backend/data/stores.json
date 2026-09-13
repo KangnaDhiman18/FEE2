@@ -1,0 +1,5 @@
+[
+  {"id": 1, "name": "Fresh Mart", "category": "Grocery & Vegetables", "address": "18 Lake View Road", "distance": 0.8, "hours": "7:00 AM - 10:00 PM", "status": "Open", "accent": "green"},
+  {"id": 2, "name": "Tech World", "category": "Electronics", "address": "42 Market Street", "distance": 1.4, "hours": "10:00 AM - 9:00 PM", "status": "Open", "accent": "blue"},
+  {"id": 3, "name": "Paper & Co.", "category": "Stationery", "address": "7 College Avenue", "distance": 2.1, "hours": "9:00 AM - 8:00 PM", "status": "Open", "accent": "orange"}
+]

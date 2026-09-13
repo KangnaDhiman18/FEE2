@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "store_id": 1,
+    "product_id": 1,
+    "quantity": 31,
+    "minimum_stock": 10,
+    "expiry": "2026-09-22",
+    "section": "Dairy",
+    "aisle": "4",
+    "shelf": "2",
+    "position": "Left"
+  },
+  {
+    "id": 2,
+    "store_id": 1,
+    "product_id": 2,
+    "quantity": 18,
+    "minimum_stock": 10,
+    "expiry": "2026-09-12",
+    "section": "Bakery",
+    "aisle": "2",
+    "shelf": "1",
+    "position": "Center"
+  },
+  {
+    "id": 3,
+    "store_id": 1,
+    "product_id": 3,
+    "quantity": 24,
+    "minimum_stock": 8,
+    "expiry": "2026-09-18",
+    "section": "Dairy",
+    "aisle": "4",
+    "shelf": "3",
+    "position": "Right"
+  },
+  {
+    "id": 4,
+    "store_id": 1,
+    "product_id": 4,
+    "quantity": 31,
+    "minimum_stock": 8,
+    "expiry": "2027-02-20",
+    "section": "Staples",
+    "aisle": "1",
+    "shelf": "2",
+    "position": "Left"
+  },
+  {
+    "id": 5,
+    "store_id": 1,
+    "product_id": 5,
+    "quantity": 20,
+    "minimum_stock": 6,
+    "expiry": "2026-09-14",
+    "section": "Fruits",
+    "aisle": "3",
+    "shelf": "1",
+    "position": "Right"
+  },
+  {
+    "id": 6,
+    "store_id": 1,
+    "product_id": 6,
+    "quantity": 12,
+    "minimum_stock": 5,
+    "expiry": "2027-06-12",
+    "section": "Household",
+    "aisle": "5",
+    "shelf": "2",
+    "position": "Center"
+  },
+  {
+    "id": 7,
+    "store_id": 1,
+    "product_id": 7,
+    "quantity": 29,
+    "minimum_stock": 7,
+    "expiry": "2026-09-10",
+    "section": "Vegetables",
+    "aisle": "1",
+    "shelf": "1",
+    "position": "Right"
+  },
+  {
+    "id": 8,
+    "store_id": 1,
+    "product_id": 8,
+    "quantity": 13,
+    "minimum_stock": 5,
+    "expiry": "2026-12-01",
+    "section": "Beverages",
+    "aisle": "6",
+    "shelf": "1",
+    "position": "Left"
+  },
+  {
+    "id": 9,
+    "store_id": 2,
+    "product_id": 10,
+    "quantity": 41,
+    "minimum_stock": 10,
+    "expiry": null,
+    "section": "Accessories",
+    "aisle": "2",
+    "shelf": "4",
+    "position": "Center"
+  }
+]
